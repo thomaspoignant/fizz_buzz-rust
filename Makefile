@@ -23,7 +23,7 @@ test: build
 	@$(CARGO) test
 
 release:
-    @$(CARGO) build --release
+	@$(CARGO) build --release
 
 docker-build: clean build
 	docker build -t $(BINARY_NAME) .
