@@ -30,7 +30,7 @@ $ curl http://localhost:8000/v1/fizzbuzz?string1=fizz&string2=buzz&int1=3&int2=5
 return :
 ```json
 {
-   "value":["1","2","fizz","4","buzz","fizz","7","8","fizz","buzz","11","fizz","13","14","fizzbuzz"]
+   "values":["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
 }
 ```
 
